@@ -140,6 +140,7 @@ def winner(board)
 def play(board)
   until over?(board) == true
   turn(board)
+  play(board)
 end
 if draw?(board) == true
   puts "Cat's Game!"
