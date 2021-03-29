@@ -147,3 +147,4 @@ if winner(board) != nil
   puts "Cat's draw!"
 end
 end
+end
