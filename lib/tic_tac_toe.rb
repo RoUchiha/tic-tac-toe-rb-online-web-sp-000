@@ -145,8 +145,8 @@ if draw?(board) == true
   print "Cat's Game!"
   elsif winner(board) != nil
   puts "Congratulations #{winner(board)}!"
-  elsif winner(board) == nil
-  nil
+else
+  return nil
 end
 end
 end
