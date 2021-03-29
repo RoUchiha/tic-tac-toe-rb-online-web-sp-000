@@ -146,7 +146,7 @@ if draw?(board) == true
   elsif winner(board) != nil
   puts "Congratulations #{winner(board)}!"
 else
-  return nil
+  winner(board)
 end
 end
 end
