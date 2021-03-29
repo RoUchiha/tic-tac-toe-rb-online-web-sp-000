@@ -74,11 +74,7 @@ def turn(board)
   index = input_to_index(user_input)
   if valid_move?(board, index) == true
     move(board, index, current_player(board))
-  else turn(board)
-  end
-  display_board(board)
-  valid_move?(board, index)
-  if index != " "
-    turn(board)
+   display_board(board)
+   else turn(board)
   end
 end
