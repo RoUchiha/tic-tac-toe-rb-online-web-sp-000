@@ -131,6 +131,8 @@ def winner(board)
   win = won?(board)
   if over?(board) == true && won?(board) != false && draw?(board) == false
     return board[win[0]]
+  else
+    nil
   end
   
   
@@ -143,8 +145,6 @@ if draw?(board) == true
   puts "Cat's Game!"
   elsif winner(board) != nil
   puts "Congratulations #{winner(board)}!"
-else
-  winner(board)
 end
 end
 end
