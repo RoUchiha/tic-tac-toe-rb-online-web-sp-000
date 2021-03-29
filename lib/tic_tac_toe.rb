@@ -131,7 +131,7 @@ def winner(board)
   win = won?(board)
   if over?(board) == true && won?(board) != false && draw?(board) == false
     return board[win[0]]
-  elsif won?(board) == false
+  else
     nil
   end
   
