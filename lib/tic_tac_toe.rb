@@ -131,9 +131,9 @@ def winner(board)
   win = won?(board)
   if win
     return board[win[0]]
-  elsif !win
+  else
     nil
-  end
+end
   
   
   
