@@ -129,7 +129,7 @@ end
 
 def winner(board)
   win = won?(board)
-  if over?(board) == true && won?(board) != false && draw?(board) == false 
+  if over?(board) == true && won?(board) != false && draw?(board) == false
     return board[win[0]]
   else
     nil
@@ -138,6 +138,9 @@ def winner(board)
   
   
 def play(board)
-  
+  until over?(board) == true
+  turn(board)
 end
+if winner(board) != nil
+  puts "Congratulations #{winner(board}!"
 end
