@@ -146,7 +146,7 @@ if winner(board) != nil
   elsif winner(board) == nil
   nil
   elsif draw?(board) == true
-  puts "Cat's draw!"
+  puts "Cat's Game!"
 end
 end
 end
