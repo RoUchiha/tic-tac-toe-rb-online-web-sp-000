@@ -143,4 +143,7 @@ def play(board)
 end
 if winner(board) != nil
   puts "Congratulations #{winner(board}!"
+  elsif draw?(board) == true
+  puts "Cat's draw!"
+end
 end
