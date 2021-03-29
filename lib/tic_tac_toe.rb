@@ -141,12 +141,12 @@ def play(board)
   until over?(board) == true
   turn(board)
 end
-if winner(board) != nil
+if draw?(board) == true
+  print "Cat's Game!"
+  elsif winner(board) != nil
   puts "Congratulations #{winner(board)}!"
   elsif winner(board) == nil
   nil
-  elsif draw?(board) == true
-  prints "Cat's Game!"
 end
 end
 end
