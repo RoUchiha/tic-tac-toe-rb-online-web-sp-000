@@ -133,6 +133,7 @@ def winner(board)
     return board[win[0]]
   else
     nil
+  end
 end
   
   
