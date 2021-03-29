@@ -145,7 +145,7 @@ end
 if draw?(board) == true
   puts "Cat's Game!"
 end
-  if winner(board) != nil
+  if won?(board) != false
   puts "Congratulations #{winner(board)}!"
 end
 end
