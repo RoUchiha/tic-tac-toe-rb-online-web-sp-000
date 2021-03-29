@@ -140,3 +140,4 @@ def winner(board)
 def play(board)
   input = gets
 end
+end
